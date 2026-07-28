@@ -1,0 +1,2156 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "label": "Предупреждающие"
+    },
+    {
+      "id": "2",
+      "label": "Приоритета"
+    },
+    {
+      "id": "3",
+      "label": "Запрещающие"
+    },
+    {
+      "id": "4",
+      "label": "Предписывающие"
+    },
+    {
+      "id": "5",
+      "label": "Особых предписаний"
+    },
+    {
+      "id": "6",
+      "label": "Информационные"
+    },
+    {
+      "id": "7",
+      "label": "Сервиса"
+    },
+    {
+      "id": "8",
+      "label": "Таблички"
+    }
+  ],
+  "signs": [
+    {
+      "id": "1.1.svg.webp",
+      "category": "1",
+      "name": "1.1.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.1.svg.webp"
+    },
+    {
+      "id": "1.10.svg.webp",
+      "category": "1",
+      "name": "1.10.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.10.svg.webp"
+    },
+    {
+      "id": "1.11.1.svg.webp",
+      "category": "1",
+      "name": "1.11.1.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.11.1.svg.webp"
+    },
+    {
+      "id": "1.11.2.svg.webp",
+      "category": "1",
+      "name": "1.11.2.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.11.2.svg.webp"
+    },
+    {
+      "id": "1.12.1.svg.webp",
+      "category": "1",
+      "name": "1.12.1.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.12.1.svg.webp"
+    },
+    {
+      "id": "1.12.2.svg.webp",
+      "category": "1",
+      "name": "1.12.2.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.12.2.svg.webp"
+    },
+    {
+      "id": "1.13.svg.webp",
+      "category": "1",
+      "name": "1.13.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.13.svg.webp"
+    },
+    {
+      "id": "1.14.svg.webp",
+      "category": "1",
+      "name": "1.14.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.14.svg.webp"
+    },
+    {
+      "id": "1.15.svg.webp",
+      "category": "1",
+      "name": "1.15.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.15.svg.webp"
+    },
+    {
+      "id": "1.16.svg.webp",
+      "category": "1",
+      "name": "1.16.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.16.svg.webp"
+    },
+    {
+      "id": "1.17.svg.webp",
+      "category": "1",
+      "name": "1.17.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.17.svg.webp"
+    },
+    {
+      "id": "1.2.svg.webp",
+      "category": "1",
+      "name": "1.2.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.2.svg.webp"
+    },
+    {
+      "id": "1.20.2.svg.webp",
+      "category": "1",
+      "name": "1.20.2.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.20.2.svg.webp"
+    },
+    {
+      "id": "1.21.svg.webp",
+      "category": "1",
+      "name": "1.21.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.21.svg.webp"
+    },
+    {
+      "id": "1.22.svg.webp",
+      "category": "1",
+      "name": "1.22.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.22.svg.webp"
+    },
+    {
+      "id": "1.23.svg.webp",
+      "category": "1",
+      "name": "1.23.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.23.svg.webp"
+    },
+    {
+      "id": "1.24.svg.webp",
+      "category": "1",
+      "name": "1.24.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.24.svg.webp"
+    },
+    {
+      "id": "1.25.svg.webp",
+      "category": "1",
+      "name": "1.25.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.25.svg.webp"
+    },
+    {
+      "id": "1.26.svg.webp",
+      "category": "1",
+      "name": "1.26.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.26.svg.webp"
+    },
+    {
+      "id": "1.27.svg.webp",
+      "category": "1",
+      "name": "1.27.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.27.svg.webp"
+    },
+    {
+      "id": "1.28.svg.webp",
+      "category": "1",
+      "name": "1.28.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.28.svg.webp"
+    },
+    {
+      "id": "1.29.svg.webp",
+      "category": "1",
+      "name": "1.29.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.29.svg.webp"
+    },
+    {
+      "id": "1.3.1.svg.webp",
+      "category": "1",
+      "name": "1.3.1.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.3.1.svg.webp"
+    },
+    {
+      "id": "1.3.2.svg.webp",
+      "category": "1",
+      "name": "1.3.2.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.3.2.svg.webp"
+    },
+    {
+      "id": "1.30.svg.webp",
+      "category": "1",
+      "name": "1.30.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.30.svg.webp"
+    },
+    {
+      "id": "1.31.svg.webp",
+      "category": "1",
+      "name": "1.31.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.31.svg.webp"
+    },
+    {
+      "id": "1.32.svg.webp",
+      "category": "1",
+      "name": "1.32.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.32.svg.webp"
+    },
+    {
+      "id": "1.33.svg.webp",
+      "category": "1",
+      "name": "1.33.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.33.svg.webp"
+    },
+    {
+      "id": "1.34.1",
+      "category": "1",
+      "name": "1.34.1",
+      "image": "images/1.%20Warning/RU_road_sign_1.34.1_A.svg.webp"
+    },
+    {
+      "id": "1.34.1",
+      "category": "1",
+      "name": "1.34.1",
+      "image": "images/1.%20Warning/RU_road_sign_1.34.1_B.svg.webp"
+    },
+    {
+      "id": "1.34.1",
+      "category": "1",
+      "name": "1.34.1",
+      "image": "images/1.%20Warning/RU_road_sign_1.34.1_C.svg.webp"
+    },
+    {
+      "id": "1.34.2",
+      "category": "1",
+      "name": "1.34.2",
+      "image": "images/1.%20Warning/RU_road_sign_1.34.2_A.svg.webp"
+    },
+    {
+      "id": "1.34.2",
+      "category": "1",
+      "name": "1.34.2",
+      "image": "images/1.%20Warning/RU_road_sign_1.34.2_B.svg.webp"
+    },
+    {
+      "id": "1.34.2",
+      "category": "1",
+      "name": "1.34.2",
+      "image": "images/1.%20Warning/RU_road_sign_1.34.2_C.svg.webp"
+    },
+    {
+      "id": "1.34.3",
+      "category": "1",
+      "name": "1.34.3",
+      "image": "images/1.%20Warning/RU_road_sign_1.34.3_A.svg.webp"
+    },
+    {
+      "id": "1.34.3",
+      "category": "1",
+      "name": "1.34.3",
+      "image": "images/1.%20Warning/RU_road_sign_1.34.3_B.svg.webp"
+    },
+    {
+      "id": "1.35.svg.webp",
+      "category": "1",
+      "name": "1.35.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.35.svg.webp"
+    },
+    {
+      "id": "1.4.1.svg.webp",
+      "category": "1",
+      "name": "1.4.1.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.4.1.svg.webp"
+    },
+    {
+      "id": "1.4.2.svg.webp",
+      "category": "1",
+      "name": "1.4.2.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.4.2.svg.webp"
+    },
+    {
+      "id": "1.4.3.svg.webp",
+      "category": "1",
+      "name": "1.4.3.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.4.3.svg.webp"
+    },
+    {
+      "id": "1.4.4.svg.webp",
+      "category": "1",
+      "name": "1.4.4.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.4.4.svg.webp"
+    },
+    {
+      "id": "1.4.5.svg.webp",
+      "category": "1",
+      "name": "1.4.5.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.4.5.svg.webp"
+    },
+    {
+      "id": "1.4.6.svg.webp",
+      "category": "1",
+      "name": "1.4.6.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.4.6.svg.webp"
+    },
+    {
+      "id": "1.5.svg.webp",
+      "category": "1",
+      "name": "1.5.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.5.svg.webp"
+    },
+    {
+      "id": "1.6.svg.webp",
+      "category": "1",
+      "name": "1.6.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.6.svg.webp"
+    },
+    {
+      "id": "1.7.svg.webp",
+      "category": "1",
+      "name": "1.7.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.7.svg.webp"
+    },
+    {
+      "id": "1.8.svg.webp",
+      "category": "1",
+      "name": "1.8.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.8.svg.webp"
+    },
+    {
+      "id": "1.9.svg.webp",
+      "category": "1",
+      "name": "1.9.svg.webp",
+      "image": "images/1.%20Warning/RU_road_sign_1.9.svg.webp"
+    },
+    {
+      "id": "2.1.svg.webp",
+      "category": "2",
+      "name": "2.1.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.1.svg.webp"
+    },
+    {
+      "id": "2.2.svg.webp",
+      "category": "2",
+      "name": "2.2.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.2.svg.webp"
+    },
+    {
+      "id": "2.3.1.svg.webp",
+      "category": "2",
+      "name": "2.3.1.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.3.1.svg.webp"
+    },
+    {
+      "id": "2.3.2.svg.webp",
+      "category": "2",
+      "name": "2.3.2.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.3.2.svg.webp"
+    },
+    {
+      "id": "2.3.3.svg.webp",
+      "category": "2",
+      "name": "2.3.3.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.3.3.svg.webp"
+    },
+    {
+      "id": "2.3.4.svg.webp",
+      "category": "2",
+      "name": "2.3.4.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.3.4.svg.webp"
+    },
+    {
+      "id": "2.3.5.svg.webp",
+      "category": "2",
+      "name": "2.3.5.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.3.5.svg.webp"
+    },
+    {
+      "id": "2.3.6.svg.webp",
+      "category": "2",
+      "name": "2.3.6.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.3.6.svg.webp"
+    },
+    {
+      "id": "2.3.7.svg.webp",
+      "category": "2",
+      "name": "2.3.7.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.3.7.svg.webp"
+    },
+    {
+      "id": "2.4.svg.webp",
+      "category": "2",
+      "name": "2.4.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.4.svg.webp"
+    },
+    {
+      "id": "2.5.svg.webp",
+      "category": "2",
+      "name": "2.5.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.5.svg.webp"
+    },
+    {
+      "id": "2.6.svg.webp",
+      "category": "2",
+      "name": "2.6.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.6.svg.webp"
+    },
+    {
+      "id": "2.7.svg.webp",
+      "category": "2",
+      "name": "2.7.svg.webp",
+      "image": "images/2.%20Priority/RU_road_sign_2.7.svg.webp"
+    },
+    {
+      "id": "3.1.svg.webp",
+      "category": "3",
+      "name": "3.1.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.1.svg.webp"
+    },
+    {
+      "id": "3.10.svg.webp",
+      "category": "3",
+      "name": "3.10.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.10.svg.webp"
+    },
+    {
+      "id": "3.11.svg.webp",
+      "category": "3",
+      "name": "3.11.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.11.svg.webp"
+    },
+    {
+      "id": "3.12.svg.webp",
+      "category": "3",
+      "name": "3.12.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.12.svg.webp"
+    },
+    {
+      "id": "3.13.svg.webp",
+      "category": "3",
+      "name": "3.13.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.13.svg.webp"
+    },
+    {
+      "id": "3.14.svg.webp",
+      "category": "3",
+      "name": "3.14.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.14.svg.webp"
+    },
+    {
+      "id": "3.15.svg.webp",
+      "category": "3",
+      "name": "3.15.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.15.svg.webp"
+    },
+    {
+      "id": "3.16.svg.webp",
+      "category": "3",
+      "name": "3.16.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.16.svg.webp"
+    },
+    {
+      "id": "3.17.1.svg.webp",
+      "category": "3",
+      "name": "3.17.1.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.17.1.svg.webp"
+    },
+    {
+      "id": "3.17.2.svg.webp",
+      "category": "3",
+      "name": "3.17.2.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.17.2.svg.webp"
+    },
+    {
+      "id": "3.17.3.svg.webp",
+      "category": "3",
+      "name": "3.17.3.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.17.3.svg.webp"
+    },
+    {
+      "id": "3.18.1.svg.webp",
+      "category": "3",
+      "name": "3.18.1.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.18.1.svg.webp"
+    },
+    {
+      "id": "3.18.2.svg.webp",
+      "category": "3",
+      "name": "3.18.2.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.18.2.svg.webp"
+    },
+    {
+      "id": "3.19.svg.webp",
+      "category": "3",
+      "name": "3.19.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.19.svg.webp"
+    },
+    {
+      "id": "3.2.svg.webp",
+      "category": "3",
+      "name": "3.2.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.2.svg.webp"
+    },
+    {
+      "id": "3.20.svg.webp",
+      "category": "3",
+      "name": "3.20.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.20.svg.webp"
+    },
+    {
+      "id": "3.21.svg.webp",
+      "category": "3",
+      "name": "3.21.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.21.svg.webp"
+    },
+    {
+      "id": "3.22.svg.webp",
+      "category": "3",
+      "name": "3.22.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.22.svg.webp"
+    },
+    {
+      "id": "3.23.svg.webp",
+      "category": "3",
+      "name": "3.23.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.23.svg.webp"
+    },
+    {
+      "id": "3.24",
+      "category": "3",
+      "name": "3.24",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.24-50.svg.webp"
+    },
+    {
+      "id": "3.25",
+      "category": "3",
+      "name": "3.25",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.25-50.svg.webp"
+    },
+    {
+      "id": "3.26.svg.webp",
+      "category": "3",
+      "name": "3.26.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.26.svg.webp"
+    },
+    {
+      "id": "3.27.svg.webp",
+      "category": "3",
+      "name": "3.27.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.27.svg.webp"
+    },
+    {
+      "id": "3.28.svg.webp",
+      "category": "3",
+      "name": "3.28.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.28.svg.webp"
+    },
+    {
+      "id": "3.29.svg.webp",
+      "category": "3",
+      "name": "3.29.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.29.svg.webp"
+    },
+    {
+      "id": "3.3.svg.webp",
+      "category": "3",
+      "name": "3.3.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.3.svg.webp"
+    },
+    {
+      "id": "3.30.svg.webp",
+      "category": "3",
+      "name": "3.30.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.30.svg.webp"
+    },
+    {
+      "id": "3.31.svg.webp",
+      "category": "3",
+      "name": "3.31.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.31.svg.webp"
+    },
+    {
+      "id": "3.32.svg.webp",
+      "category": "3",
+      "name": "3.32.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.32.svg.webp"
+    },
+    {
+      "id": "3.33.svg.webp",
+      "category": "3",
+      "name": "3.33.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.33.svg.webp"
+    },
+    {
+      "id": "3.34.svg.webp",
+      "category": "3",
+      "name": "3.34.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.34.svg.webp"
+    },
+    {
+      "id": "3.35.svg.webp",
+      "category": "3",
+      "name": "3.35.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.35.svg.webp"
+    },
+    {
+      "id": "3.4.svg.webp",
+      "category": "3",
+      "name": "3.4.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.4.svg.webp"
+    },
+    {
+      "id": "3.5.svg.webp",
+      "category": "3",
+      "name": "3.5.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.5.svg.webp"
+    },
+    {
+      "id": "3.6.svg.webp",
+      "category": "3",
+      "name": "3.6.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.6.svg.webp"
+    },
+    {
+      "id": "3.7.svg.webp",
+      "category": "3",
+      "name": "3.7.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.7.svg.webp"
+    },
+    {
+      "id": "3.8.svg.webp",
+      "category": "3",
+      "name": "3.8.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.8.svg.webp"
+    },
+    {
+      "id": "3.9.svg.webp",
+      "category": "3",
+      "name": "3.9.svg.webp",
+      "image": "images/3.%20Restrictive/RU_road_sign_3.9.svg.webp"
+    },
+    {
+      "id": "4.1.1.svg.webp",
+      "category": "4",
+      "name": "4.1.1.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.1.1.svg.webp"
+    },
+    {
+      "id": "4.1.2.svg.webp",
+      "category": "4",
+      "name": "4.1.2.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.1.2.svg.webp"
+    },
+    {
+      "id": "4.1.3.svg.webp",
+      "category": "4",
+      "name": "4.1.3.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.1.3.svg.webp"
+    },
+    {
+      "id": "4.1.4.svg.webp",
+      "category": "4",
+      "name": "4.1.4.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.1.4.svg.webp"
+    },
+    {
+      "id": "4.1.5.svg.webp",
+      "category": "4",
+      "name": "4.1.5.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.1.5.svg.webp"
+    },
+    {
+      "id": "4.1.6.svg.webp",
+      "category": "4",
+      "name": "4.1.6.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.1.6.svg.webp"
+    },
+    {
+      "id": "4.2.1.svg.webp",
+      "category": "4",
+      "name": "4.2.1.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.2.1.svg.webp"
+    },
+    {
+      "id": "4.2.2.svg.webp",
+      "category": "4",
+      "name": "4.2.2.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.2.2.svg.webp"
+    },
+    {
+      "id": "4.2.3.svg.webp",
+      "category": "4",
+      "name": "4.2.3.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.2.3.svg.webp"
+    },
+    {
+      "id": "4.3.svg.webp",
+      "category": "4",
+      "name": "4.3.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.3.svg.webp"
+    },
+    {
+      "id": "4.4.1.svg.webp",
+      "category": "4",
+      "name": "4.4.1.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.4.1.svg.webp"
+    },
+    {
+      "id": "4.4.2.svg.webp",
+      "category": "4",
+      "name": "4.4.2.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.4.2.svg.webp"
+    },
+    {
+      "id": "4.5.1.svg.webp",
+      "category": "4",
+      "name": "4.5.1.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.5.1.svg.webp"
+    },
+    {
+      "id": "4.5.2.svg.webp",
+      "category": "4",
+      "name": "4.5.2.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.5.2.svg.webp"
+    },
+    {
+      "id": "4.5.3.svg.webp",
+      "category": "4",
+      "name": "4.5.3.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.5.3.svg.webp"
+    },
+    {
+      "id": "4.5.4.svg.webp",
+      "category": "4",
+      "name": "4.5.4.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.5.4.svg.webp"
+    },
+    {
+      "id": "4.5.5.svg.webp",
+      "category": "4",
+      "name": "4.5.5.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.5.5.svg.webp"
+    },
+    {
+      "id": "4.5.6.svg.webp",
+      "category": "4",
+      "name": "4.5.6.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.5.6.svg.webp"
+    },
+    {
+      "id": "4.5.7.svg.webp",
+      "category": "4",
+      "name": "4.5.7.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.5.7.svg.webp"
+    },
+    {
+      "id": "4.7",
+      "category": "4",
+      "name": "4.7",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.7-50.svg.webp"
+    },
+    {
+      "id": "4.8.1.svg.webp",
+      "category": "4",
+      "name": "4.8.1.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.8.1.svg.webp"
+    },
+    {
+      "id": "4.8.2.svg.webp",
+      "category": "4",
+      "name": "4.8.2.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.8.2.svg.webp"
+    },
+    {
+      "id": "4.8.3.svg.webp",
+      "category": "4",
+      "name": "4.8.3.svg.webp",
+      "image": "images/4.%20Mandatory/RU_road_sign_4.8.3.svg.webp"
+    },
+    {
+      "id": "5.1.svg.webp",
+      "category": "5",
+      "name": "5.1.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.1.svg.webp"
+    },
+    {
+      "id": "5.10.svg.webp",
+      "category": "5",
+      "name": "5.10.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.10.svg.webp"
+    },
+    {
+      "id": "5.11.1.svg.webp",
+      "category": "5",
+      "name": "5.11.1.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.11.1.svg.webp"
+    },
+    {
+      "id": "5.11.2.svg.webp",
+      "category": "5",
+      "name": "5.11.2.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.11.2.svg.webp"
+    },
+    {
+      "id": "5.12.1.svg.webp",
+      "category": "5",
+      "name": "5.12.1.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.12.1.svg.webp"
+    },
+    {
+      "id": "5.12.2.svg.webp",
+      "category": "5",
+      "name": "5.12.2.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.12.2.svg.webp"
+    },
+    {
+      "id": "5.13.1.svg.webp",
+      "category": "5",
+      "name": "5.13.1.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.13.1.svg.webp"
+    },
+    {
+      "id": "5.13.2.svg.webp",
+      "category": "5",
+      "name": "5.13.2.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.13.2.svg.webp"
+    },
+    {
+      "id": "5.13.3.svg.webp",
+      "category": "5",
+      "name": "5.13.3.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.13.3.svg.webp"
+    },
+    {
+      "id": "5.13.4.svg.webp",
+      "category": "5",
+      "name": "5.13.4.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.13.4.svg.webp"
+    },
+    {
+      "id": "5.14.1.svg.webp",
+      "category": "5",
+      "name": "5.14.1.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.14.1.svg.webp"
+    },
+    {
+      "id": "5.14.2.svg.webp",
+      "category": "5",
+      "name": "5.14.2.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.14.2.svg.webp"
+    },
+    {
+      "id": "5.14.3.svg.webp",
+      "category": "5",
+      "name": "5.14.3.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.14.3.svg.webp"
+    },
+    {
+      "id": "5.14.4.svg.webp",
+      "category": "5",
+      "name": "5.14.4.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.14.4.svg.webp"
+    },
+    {
+      "id": "5.15.1.svg.webp",
+      "category": "5",
+      "name": "5.15.1.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.1.svg.webp"
+    },
+    {
+      "id": "5.15.2",
+      "category": "5",
+      "name": "5.15.2",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.2_A.svg.webp"
+    },
+    {
+      "id": "5.15.2",
+      "category": "5",
+      "name": "5.15.2",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.2_B.svg.webp"
+    },
+    {
+      "id": "5.15.2",
+      "category": "5",
+      "name": "5.15.2",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.2_C.svg.webp"
+    },
+    {
+      "id": "5.15.2",
+      "category": "5",
+      "name": "5.15.2",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.2_D.svg.webp"
+    },
+    {
+      "id": "5.15.2",
+      "category": "5",
+      "name": "5.15.2",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.2_E.svg.webp"
+    },
+    {
+      "id": "5.15.3",
+      "category": "5",
+      "name": "5.15.3",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.3_A.svg.webp"
+    },
+    {
+      "id": "5.15.3",
+      "category": "5",
+      "name": "5.15.3",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.3_B.svg.webp"
+    },
+    {
+      "id": "5.15.3",
+      "category": "5",
+      "name": "5.15.3",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.3_C.svg.webp"
+    },
+    {
+      "id": "5.15.4",
+      "category": "5",
+      "name": "5.15.4",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.4_A.svg.webp"
+    },
+    {
+      "id": "5.15.4",
+      "category": "5",
+      "name": "5.15.4",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.4_B.svg.webp"
+    },
+    {
+      "id": "5.15.5.svg.webp",
+      "category": "5",
+      "name": "5.15.5.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.5.svg.webp"
+    },
+    {
+      "id": "5.15.6.svg.webp",
+      "category": "5",
+      "name": "5.15.6.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.6.svg.webp"
+    },
+    {
+      "id": "5.15.7",
+      "category": "5",
+      "name": "5.15.7",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.7_A.svg.webp"
+    },
+    {
+      "id": "5.15.7",
+      "category": "5",
+      "name": "5.15.7",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.7_B.svg.webp"
+    },
+    {
+      "id": "5.15.7",
+      "category": "5",
+      "name": "5.15.7",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.7_C.svg.webp"
+    },
+    {
+      "id": "5.15.8.svg.webp",
+      "category": "5",
+      "name": "5.15.8.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.15.8.svg.webp"
+    },
+    {
+      "id": "5.16.svg.webp",
+      "category": "5",
+      "name": "5.16.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.16.svg.webp"
+    },
+    {
+      "id": "5.17.svg.webp",
+      "category": "5",
+      "name": "5.17.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.17.svg.webp"
+    },
+    {
+      "id": "5.18.svg.webp",
+      "category": "5",
+      "name": "5.18.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.18.svg.webp"
+    },
+    {
+      "id": "5.19.1.svg.webp",
+      "category": "5",
+      "name": "5.19.1.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.19.1.svg.webp"
+    },
+    {
+      "id": "5.19.2.svg.webp",
+      "category": "5",
+      "name": "5.19.2.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.19.2.svg.webp"
+    },
+    {
+      "id": "5.19.3.svg.webp",
+      "category": "5",
+      "name": "5.19.3.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.19.3.svg.webp"
+    },
+    {
+      "id": "5.19.4",
+      "category": "5",
+      "name": "5.19.4",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.19.4_A.svg.webp"
+    },
+    {
+      "id": "5.19.4",
+      "category": "5",
+      "name": "5.19.4",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.19.4_B.svg.webp"
+    },
+    {
+      "id": "5.2.svg.webp",
+      "category": "5",
+      "name": "5.2.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.2.svg.webp"
+    },
+    {
+      "id": "5.20.svg.webp",
+      "category": "5",
+      "name": "5.20.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.20.svg.webp"
+    },
+    {
+      "id": "5.21.svg.webp",
+      "category": "5",
+      "name": "5.21.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.21.svg.webp"
+    },
+    {
+      "id": "5.22.svg.webp",
+      "category": "5",
+      "name": "5.22.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.22.svg.webp"
+    },
+    {
+      "id": "5.23.1.svg.webp",
+      "category": "5",
+      "name": "5.23.1.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.23.1.svg.webp"
+    },
+    {
+      "id": "5.23.2.svg.webp",
+      "category": "5",
+      "name": "5.23.2.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.23.2.svg.webp"
+    },
+    {
+      "id": "5.24.1.svg.webp",
+      "category": "5",
+      "name": "5.24.1.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.24.1.svg.webp"
+    },
+    {
+      "id": "5.24.2.svg.webp",
+      "category": "5",
+      "name": "5.24.2.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.24.2.svg.webp"
+    },
+    {
+      "id": "5.25.svg.webp",
+      "category": "5",
+      "name": "5.25.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.25.svg.webp"
+    },
+    {
+      "id": "5.26.svg.webp",
+      "category": "5",
+      "name": "5.26.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.26.svg.webp"
+    },
+    {
+      "id": "5.27.svg.webp",
+      "category": "5",
+      "name": "5.27.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.27.svg.webp"
+    },
+    {
+      "id": "5.28.svg.webp",
+      "category": "5",
+      "name": "5.28.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.28.svg.webp"
+    },
+    {
+      "id": "5.29.svg.webp",
+      "category": "5",
+      "name": "5.29.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.29.svg.webp"
+    },
+    {
+      "id": "5.3.svg.webp",
+      "category": "5",
+      "name": "5.3.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.3.svg.webp"
+    },
+    {
+      "id": "5.30.svg.webp",
+      "category": "5",
+      "name": "5.30.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.30.svg.webp"
+    },
+    {
+      "id": "5.31.svg.webp",
+      "category": "5",
+      "name": "5.31.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.31.svg.webp"
+    },
+    {
+      "id": "5.32.svg.webp",
+      "category": "5",
+      "name": "5.32.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.32.svg.webp"
+    },
+    {
+      "id": "5.33.svg.webp",
+      "category": "5",
+      "name": "5.33.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.33.svg.webp"
+    },
+    {
+      "id": "5.34.svg.webp",
+      "category": "5",
+      "name": "5.34.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.34.svg.webp"
+    },
+    {
+      "id": "5.35.svg.webp",
+      "category": "5",
+      "name": "5.35.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.35.svg.webp"
+    },
+    {
+      "id": "5.36.svg.webp",
+      "category": "5",
+      "name": "5.36.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.36.svg.webp"
+    },
+    {
+      "id": "5.37",
+      "category": "5",
+      "name": "5.37",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.37_A.svg.webp"
+    },
+    {
+      "id": "5.37",
+      "category": "5",
+      "name": "5.37",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.37_B.svg.webp"
+    },
+    {
+      "id": "5.38",
+      "category": "5",
+      "name": "5.38",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.38_A.svg.webp"
+    },
+    {
+      "id": "5.38",
+      "category": "5",
+      "name": "5.38",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.38_B.svg.webp"
+    },
+    {
+      "id": "5.39.svg.webp",
+      "category": "5",
+      "name": "5.39.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.39.svg.webp"
+    },
+    {
+      "id": "5.4.svg.webp",
+      "category": "5",
+      "name": "5.4.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.4.svg.webp"
+    },
+    {
+      "id": "5.40.svg.webp",
+      "category": "5",
+      "name": "5.40.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.40.svg.webp"
+    },
+    {
+      "id": "5.41.svg.webp",
+      "category": "5",
+      "name": "5.41.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.41.svg.webp"
+    },
+    {
+      "id": "5.42.svg.webp",
+      "category": "5",
+      "name": "5.42.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.42.svg.webp"
+    },
+    {
+      "id": "5.5.svg.webp",
+      "category": "5",
+      "name": "5.5.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.5.svg.webp"
+    },
+    {
+      "id": "5.6.svg.webp",
+      "category": "5",
+      "name": "5.6.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.6.svg.webp"
+    },
+    {
+      "id": "5.7.1.svg.webp",
+      "category": "5",
+      "name": "5.7.1.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.7.1.svg.webp"
+    },
+    {
+      "id": "5.7.2.svg.webp",
+      "category": "5",
+      "name": "5.7.2.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.7.2.svg.webp"
+    },
+    {
+      "id": "5.8.svg.webp",
+      "category": "5",
+      "name": "5.8.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.8.svg.webp"
+    },
+    {
+      "id": "5.9.svg.webp",
+      "category": "5",
+      "name": "5.9.svg.webp",
+      "image": "images/5.%20Special%20regulation/RU_road_sign_5.9.svg.webp"
+    },
+    {
+      "id": "6.1.svg.webp",
+      "category": "6",
+      "name": "6.1.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.1.svg.webp"
+    },
+    {
+      "id": "6.10.1",
+      "category": "6",
+      "name": "6.10.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.10.1_A.svg.webp"
+    },
+    {
+      "id": "6.10.1",
+      "category": "6",
+      "name": "6.10.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.10.1_B.svg.webp"
+    },
+    {
+      "id": "6.10.1",
+      "category": "6",
+      "name": "6.10.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.10.1_C.svg.webp"
+    },
+    {
+      "id": "6.10.1",
+      "category": "6",
+      "name": "6.10.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.10.1_D.svg.webp"
+    },
+    {
+      "id": "6.10.1",
+      "category": "6",
+      "name": "6.10.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.10.1_E.svg.webp"
+    },
+    {
+      "id": "6.10.2",
+      "category": "6",
+      "name": "6.10.2",
+      "image": "images/6.%20Informatory/RU_road_sign_6.10.2_A.svg.webp"
+    },
+    {
+      "id": "6.10.2",
+      "category": "6",
+      "name": "6.10.2",
+      "image": "images/6.%20Informatory/RU_road_sign_6.10.2_B.svg.webp"
+    },
+    {
+      "id": "6.11",
+      "category": "6",
+      "name": "6.11",
+      "image": "images/6.%20Informatory/RU_road_sign_6.11_A.svg.webp"
+    },
+    {
+      "id": "6.11",
+      "category": "6",
+      "name": "6.11",
+      "image": "images/6.%20Informatory/RU_road_sign_6.11_B.svg.webp"
+    },
+    {
+      "id": "6.11",
+      "category": "6",
+      "name": "6.11",
+      "image": "images/6.%20Informatory/RU_road_sign_6.11_C.svg.webp"
+    },
+    {
+      "id": "6.12",
+      "category": "6",
+      "name": "6.12",
+      "image": "images/6.%20Informatory/RU_road_sign_6.12_A.svg.webp"
+    },
+    {
+      "id": "6.12",
+      "category": "6",
+      "name": "6.12",
+      "image": "images/6.%20Informatory/RU_road_sign_6.12_B.svg.webp"
+    },
+    {
+      "id": "6.12",
+      "category": "6",
+      "name": "6.12",
+      "image": "images/6.%20Informatory/RU_road_sign_6.12_C.svg.webp"
+    },
+    {
+      "id": "6.13",
+      "category": "6",
+      "name": "6.13",
+      "image": "images/6.%20Informatory/RU_road_sign_6.13_B.svg.webp"
+    },
+    {
+      "id": "6.14.1",
+      "category": "6",
+      "name": "6.14.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.14.1_A.svg.webp"
+    },
+    {
+      "id": "6.14.1",
+      "category": "6",
+      "name": "6.14.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.14.1_B.svg.webp"
+    },
+    {
+      "id": "6.14.1",
+      "category": "6",
+      "name": "6.14.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.14.1_C.svg.webp"
+    },
+    {
+      "id": "6.14.1",
+      "category": "6",
+      "name": "6.14.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.14.1_D.svg.webp"
+    },
+    {
+      "id": "6.14.2",
+      "category": "6",
+      "name": "6.14.2",
+      "image": "images/6.%20Informatory/RU_road_sign_6.14.2_A.svg.webp"
+    },
+    {
+      "id": "6.14.2",
+      "category": "6",
+      "name": "6.14.2",
+      "image": "images/6.%20Informatory/RU_road_sign_6.14.2_B.svg.webp"
+    },
+    {
+      "id": "6.14.2",
+      "category": "6",
+      "name": "6.14.2",
+      "image": "images/6.%20Informatory/RU_road_sign_6.14.2_C.svg.webp"
+    },
+    {
+      "id": "6.15.1.svg.webp",
+      "category": "6",
+      "name": "6.15.1.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.15.1.svg.webp"
+    },
+    {
+      "id": "6.15.2.svg.webp",
+      "category": "6",
+      "name": "6.15.2.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.15.2.svg.webp"
+    },
+    {
+      "id": "6.15.3.svg.webp",
+      "category": "6",
+      "name": "6.15.3.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.15.3.svg.webp"
+    },
+    {
+      "id": "6.16.1.svg.webp",
+      "category": "6",
+      "name": "6.16.1.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.16.1.svg.webp"
+    },
+    {
+      "id": "6.16.svg.webp",
+      "category": "6",
+      "name": "6.16.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.16.svg.webp"
+    },
+    {
+      "id": "6.17.svg.webp",
+      "category": "6",
+      "name": "6.17.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.17.svg.webp"
+    },
+    {
+      "id": "6.18.1.svg.webp",
+      "category": "6",
+      "name": "6.18.1.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.18.1.svg.webp"
+    },
+    {
+      "id": "6.18.2.svg.webp",
+      "category": "6",
+      "name": "6.18.2.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.18.2.svg.webp"
+    },
+    {
+      "id": "6.18.3.svg.webp",
+      "category": "6",
+      "name": "6.18.3.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.18.3.svg.webp"
+    },
+    {
+      "id": "6.19.1.svg.webp",
+      "category": "6",
+      "name": "6.19.1.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.19.1.svg.webp"
+    },
+    {
+      "id": "6.19.2.svg.webp",
+      "category": "6",
+      "name": "6.19.2.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.19.2.svg.webp"
+    },
+    {
+      "id": "6.2",
+      "category": "6",
+      "name": "6.2",
+      "image": "images/6.%20Informatory/RU_road_sign_6.2-50.svg.webp"
+    },
+    {
+      "id": "6.2.1.svg.webp",
+      "category": "6",
+      "name": "6.2.1.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.2.1.svg.webp"
+    },
+    {
+      "id": "6.20.1.svg.webp",
+      "category": "6",
+      "name": "6.20.1.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.20.1.svg.webp"
+    },
+    {
+      "id": "6.20.2.svg.webp",
+      "category": "6",
+      "name": "6.20.2.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.20.2.svg.webp"
+    },
+    {
+      "id": "6.21.1.svg.webp",
+      "category": "6",
+      "name": "6.21.1.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.21.1.svg.webp"
+    },
+    {
+      "id": "6.21.2.svg.webp",
+      "category": "6",
+      "name": "6.21.2.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.21.2.svg.webp"
+    },
+    {
+      "id": "6.3.1.svg.webp",
+      "category": "6",
+      "name": "6.3.1.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.3.1.svg.webp"
+    },
+    {
+      "id": "6.3.2.svg.webp",
+      "category": "6",
+      "name": "6.3.2.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.3.2.svg.webp"
+    },
+    {
+      "id": "6.4",
+      "category": "6",
+      "name": "6.4",
+      "image": "images/6.%20Informatory/RU_road_sign_6.4_A.svg.webp"
+    },
+    {
+      "id": "6.4",
+      "category": "6",
+      "name": "6.4",
+      "image": "images/6.%20Informatory/RU_road_sign_6.4_B.svg.webp"
+    },
+    {
+      "id": "6.4",
+      "category": "6",
+      "name": "6.4",
+      "image": "images/6.%20Informatory/RU_road_sign_6.4_C.svg.webp"
+    },
+    {
+      "id": "6.5.svg.webp",
+      "category": "6",
+      "name": "6.5.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.5.svg.webp"
+    },
+    {
+      "id": "6.6.svg.webp",
+      "category": "6",
+      "name": "6.6.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.6.svg.webp"
+    },
+    {
+      "id": "6.7.svg.webp",
+      "category": "6",
+      "name": "6.7.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.7.svg.webp"
+    },
+    {
+      "id": "6.8.1.svg.webp",
+      "category": "6",
+      "name": "6.8.1.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.8.1.svg.webp"
+    },
+    {
+      "id": "6.8.2.svg.webp",
+      "category": "6",
+      "name": "6.8.2.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.8.2.svg.webp"
+    },
+    {
+      "id": "6.8.3.svg.webp",
+      "category": "6",
+      "name": "6.8.3.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.8.3.svg.webp"
+    },
+    {
+      "id": "6.9.1",
+      "category": "6",
+      "name": "6.9.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.9.1_A.svg.webp"
+    },
+    {
+      "id": "6.9.1",
+      "category": "6",
+      "name": "6.9.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.9.1_B.svg.webp"
+    },
+    {
+      "id": "6.9.1",
+      "category": "6",
+      "name": "6.9.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.9.1_C.svg.webp"
+    },
+    {
+      "id": "6.9.1",
+      "category": "6",
+      "name": "6.9.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.9.1_D.svg.webp"
+    },
+    {
+      "id": "6.9.1",
+      "category": "6",
+      "name": "6.9.1",
+      "image": "images/6.%20Informatory/RU_road_sign_6.9.1_E.svg.webp"
+    },
+    {
+      "id": "6.9.2",
+      "category": "6",
+      "name": "6.9.2",
+      "image": "images/6.%20Informatory/RU_road_sign_6.9.2_A.svg.webp"
+    },
+    {
+      "id": "6.9.2",
+      "category": "6",
+      "name": "6.9.2",
+      "image": "images/6.%20Informatory/RU_road_sign_6.9.2_B.svg.webp"
+    },
+    {
+      "id": "6.9.2",
+      "category": "6",
+      "name": "6.9.2",
+      "image": "images/6.%20Informatory/RU_road_sign_6.9.2_C.svg.webp"
+    },
+    {
+      "id": "6.9.3.svg.webp",
+      "category": "6",
+      "name": "6.9.3.svg.webp",
+      "image": "images/6.%20Informatory/RU_road_sign_6.9.3.svg.webp"
+    },
+    {
+      "id": "7.1.svg.webp",
+      "category": "7",
+      "name": "7.1.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.1.svg.webp"
+    },
+    {
+      "id": "7.10.svg.webp",
+      "category": "7",
+      "name": "7.10.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.10.svg.webp"
+    },
+    {
+      "id": "7.11.svg.webp",
+      "category": "7",
+      "name": "7.11.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.11.svg.webp"
+    },
+    {
+      "id": "7.12.svg.webp",
+      "category": "7",
+      "name": "7.12.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.12.svg.webp"
+    },
+    {
+      "id": "7.13.svg.webp",
+      "category": "7",
+      "name": "7.13.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.13.svg.webp"
+    },
+    {
+      "id": "7.14.1.svg.webp",
+      "category": "7",
+      "name": "7.14.1.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.14.1.svg.webp"
+    },
+    {
+      "id": "7.14.2.svg.webp",
+      "category": "7",
+      "name": "7.14.2.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.14.2.svg.webp"
+    },
+    {
+      "id": "7.15.svg.webp",
+      "category": "7",
+      "name": "7.15.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.15.svg.webp"
+    },
+    {
+      "id": "7.16.svg.webp",
+      "category": "7",
+      "name": "7.16.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.16.svg.webp"
+    },
+    {
+      "id": "7.17.svg.webp",
+      "category": "7",
+      "name": "7.17.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.17.svg.webp"
+    },
+    {
+      "id": "7.18.svg.webp",
+      "category": "7",
+      "name": "7.18.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.18.svg.webp"
+    },
+    {
+      "id": "7.19.svg.webp",
+      "category": "7",
+      "name": "7.19.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.19.svg.webp"
+    },
+    {
+      "id": "7.2.svg.webp",
+      "category": "7",
+      "name": "7.2.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.2.svg.webp"
+    },
+    {
+      "id": "7.20.svg.webp",
+      "category": "7",
+      "name": "7.20.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.20.svg.webp"
+    },
+    {
+      "id": "7.3.svg.webp",
+      "category": "7",
+      "name": "7.3.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.3.svg.webp"
+    },
+    {
+      "id": "7.4.svg.webp",
+      "category": "7",
+      "name": "7.4.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.4.svg.webp"
+    },
+    {
+      "id": "7.5.svg.webp",
+      "category": "7",
+      "name": "7.5.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.5.svg.webp"
+    },
+    {
+      "id": "7.6.svg.webp",
+      "category": "7",
+      "name": "7.6.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.6.svg.webp"
+    },
+    {
+      "id": "7.7.svg.webp",
+      "category": "7",
+      "name": "7.7.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.7.svg.webp"
+    },
+    {
+      "id": "7.8.svg.webp",
+      "category": "7",
+      "name": "7.8.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.8.svg.webp"
+    },
+    {
+      "id": "7.9.svg.webp",
+      "category": "7",
+      "name": "7.9.svg.webp",
+      "image": "images/7.%20Service/RU_road_sign_7.9.svg.webp"
+    },
+    {
+      "id": "8.1.1.svg.webp",
+      "category": "8",
+      "name": "8.1.1.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.1.1.svg.webp"
+    },
+    {
+      "id": "8.1.2.svg.webp",
+      "category": "8",
+      "name": "8.1.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.1.2.svg.webp"
+    },
+    {
+      "id": "8.1.3.svg.webp",
+      "category": "8",
+      "name": "8.1.3.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.1.3.svg.webp"
+    },
+    {
+      "id": "8.1.4.svg.webp",
+      "category": "8",
+      "name": "8.1.4.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.1.4.svg.webp"
+    },
+    {
+      "id": "8.10.svg.webp",
+      "category": "8",
+      "name": "8.10.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.10.svg.webp"
+    },
+    {
+      "id": "8.11.svg.webp",
+      "category": "8",
+      "name": "8.11.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.11.svg.webp"
+    },
+    {
+      "id": "8.12.svg.webp",
+      "category": "8",
+      "name": "8.12.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.12.svg.webp"
+    },
+    {
+      "id": "8.13.svg.webp",
+      "category": "8",
+      "name": "8.13.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.13.svg.webp"
+    },
+    {
+      "id": "8.14.svg.webp",
+      "category": "8",
+      "name": "8.14.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.14.svg.webp"
+    },
+    {
+      "id": "8.15.svg.webp",
+      "category": "8",
+      "name": "8.15.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.15.svg.webp"
+    },
+    {
+      "id": "8.16.2.svg.webp",
+      "category": "8",
+      "name": "8.16.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.16.2.svg.webp"
+    },
+    {
+      "id": "8.16.svg.webp",
+      "category": "8",
+      "name": "8.16.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.16.svg.webp"
+    },
+    {
+      "id": "8.17.svg.webp",
+      "category": "8",
+      "name": "8.17.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.17.svg.webp"
+    },
+    {
+      "id": "8.18.svg.webp",
+      "category": "8",
+      "name": "8.18.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.18.svg.webp"
+    },
+    {
+      "id": "8.19.svg.webp",
+      "category": "8",
+      "name": "8.19.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.19.svg.webp"
+    },
+    {
+      "id": "8.2.1.svg.webp",
+      "category": "8",
+      "name": "8.2.1.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.2.1.svg.webp"
+    },
+    {
+      "id": "8.2.2.svg.webp",
+      "category": "8",
+      "name": "8.2.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.2.2.svg.webp"
+    },
+    {
+      "id": "8.2.3.svg.webp",
+      "category": "8",
+      "name": "8.2.3.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.2.3.svg.webp"
+    },
+    {
+      "id": "8.2.4.svg.webp",
+      "category": "8",
+      "name": "8.2.4.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.2.4.svg.webp"
+    },
+    {
+      "id": "8.2.5.svg.webp",
+      "category": "8",
+      "name": "8.2.5.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.2.5.svg.webp"
+    },
+    {
+      "id": "8.2.6.svg.webp",
+      "category": "8",
+      "name": "8.2.6.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.2.6.svg.webp"
+    },
+    {
+      "id": "8.20.1.svg.webp",
+      "category": "8",
+      "name": "8.20.1.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.20.1.svg.webp"
+    },
+    {
+      "id": "8.20.2.svg.webp",
+      "category": "8",
+      "name": "8.20.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.20.2.svg.webp"
+    },
+    {
+      "id": "8.21.1.svg.webp",
+      "category": "8",
+      "name": "8.21.1.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.21.1.svg.webp"
+    },
+    {
+      "id": "8.21.2.svg.webp",
+      "category": "8",
+      "name": "8.21.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.21.2.svg.webp"
+    },
+    {
+      "id": "8.21.3.svg.webp",
+      "category": "8",
+      "name": "8.21.3.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.21.3.svg.webp"
+    },
+    {
+      "id": "8.22.1.svg.webp",
+      "category": "8",
+      "name": "8.22.1.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.22.1.svg.webp"
+    },
+    {
+      "id": "8.22.2.svg.webp",
+      "category": "8",
+      "name": "8.22.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.22.2.svg.webp"
+    },
+    {
+      "id": "8.22.3.svg.webp",
+      "category": "8",
+      "name": "8.22.3.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.22.3.svg.webp"
+    },
+    {
+      "id": "8.23.svg.webp",
+      "category": "8",
+      "name": "8.23.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.23.svg.webp"
+    },
+    {
+      "id": "8.24.svg.webp",
+      "category": "8",
+      "name": "8.24.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.24.svg.webp"
+    },
+    {
+      "id": "8.25.svg.webp",
+      "category": "8",
+      "name": "8.25.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.25.svg.webp"
+    },
+    {
+      "id": "8.26.svg.webp",
+      "category": "8",
+      "name": "8.26.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.26.svg.webp"
+    },
+    {
+      "id": "8.3.1.svg.webp",
+      "category": "8",
+      "name": "8.3.1.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.3.1.svg.webp"
+    },
+    {
+      "id": "8.3.2.svg.webp",
+      "category": "8",
+      "name": "8.3.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.3.2.svg.webp"
+    },
+    {
+      "id": "8.3.3.svg.webp",
+      "category": "8",
+      "name": "8.3.3.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.3.3.svg.webp"
+    },
+    {
+      "id": "8.3.4.svg.webp",
+      "category": "8",
+      "name": "8.3.4.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.3.4.svg.webp"
+    },
+    {
+      "id": "8.3.5.svg.webp",
+      "category": "8",
+      "name": "8.3.5.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.3.5.svg.webp"
+    },
+    {
+      "id": "8.4.1.svg.webp",
+      "category": "8",
+      "name": "8.4.1.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.1.svg.webp"
+    },
+    {
+      "id": "8.4.10.svg.webp",
+      "category": "8",
+      "name": "8.4.10.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.10.svg.webp"
+    },
+    {
+      "id": "8.4.11.svg.webp",
+      "category": "8",
+      "name": "8.4.11.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.11.svg.webp"
+    },
+    {
+      "id": "8.4.12.svg.webp",
+      "category": "8",
+      "name": "8.4.12.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.12.svg.webp"
+    },
+    {
+      "id": "8.4.13.svg.webp",
+      "category": "8",
+      "name": "8.4.13.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.13.svg.webp"
+    },
+    {
+      "id": "8.4.14.svg.webp",
+      "category": "8",
+      "name": "8.4.14.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.14.svg.webp"
+    },
+    {
+      "id": "8.4.16.svg.webp",
+      "category": "8",
+      "name": "8.4.16.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.16.svg.webp"
+    },
+    {
+      "id": "8.4.2.svg.webp",
+      "category": "8",
+      "name": "8.4.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.2.svg.webp"
+    },
+    {
+      "id": "8.4.3.1.svg.webp",
+      "category": "8",
+      "name": "8.4.3.1.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.3.1.svg.webp"
+    },
+    {
+      "id": "8.4.3.2.svg.webp",
+      "category": "8",
+      "name": "8.4.3.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.3.2.svg.webp"
+    },
+    {
+      "id": "8.4.4.svg.webp",
+      "category": "8",
+      "name": "8.4.4.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.4.svg.webp"
+    },
+    {
+      "id": "8.4.5.svg.webp",
+      "category": "8",
+      "name": "8.4.5.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.5.svg.webp"
+    },
+    {
+      "id": "8.4.6.svg.webp",
+      "category": "8",
+      "name": "8.4.6.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.6.svg.webp"
+    },
+    {
+      "id": "8.4.7.2.svg.webp",
+      "category": "8",
+      "name": "8.4.7.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.7.2.svg.webp"
+    },
+    {
+      "id": "8.4.7.svg.webp",
+      "category": "8",
+      "name": "8.4.7.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.7.svg.webp"
+    },
+    {
+      "id": "8.4.8.svg.webp",
+      "category": "8",
+      "name": "8.4.8.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.8.svg.webp"
+    },
+    {
+      "id": "8.4.9.svg.webp",
+      "category": "8",
+      "name": "8.4.9.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.4.9.svg.webp"
+    },
+    {
+      "id": "8.5.1.svg.webp",
+      "category": "8",
+      "name": "8.5.1.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.5.1.svg.webp"
+    },
+    {
+      "id": "8.5.2.svg.webp",
+      "category": "8",
+      "name": "8.5.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.5.2.svg.webp"
+    },
+    {
+      "id": "8.5.3.svg.webp",
+      "category": "8",
+      "name": "8.5.3.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.5.3.svg.webp"
+    },
+    {
+      "id": "8.5.4.svg.webp",
+      "category": "8",
+      "name": "8.5.4.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.5.4.svg.webp"
+    },
+    {
+      "id": "8.5.5.svg.webp",
+      "category": "8",
+      "name": "8.5.5.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.5.5.svg.webp"
+    },
+    {
+      "id": "8.5.6.svg.webp",
+      "category": "8",
+      "name": "8.5.6.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.5.6.svg.webp"
+    },
+    {
+      "id": "8.5.7.svg.webp",
+      "category": "8",
+      "name": "8.5.7.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.5.7.svg.webp"
+    },
+    {
+      "id": "8.6.1.svg.webp",
+      "category": "8",
+      "name": "8.6.1.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.6.1.svg.webp"
+    },
+    {
+      "id": "8.6.2.svg.webp",
+      "category": "8",
+      "name": "8.6.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.6.2.svg.webp"
+    },
+    {
+      "id": "8.6.3.svg.webp",
+      "category": "8",
+      "name": "8.6.3.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.6.3.svg.webp"
+    },
+    {
+      "id": "8.6.4.svg.webp",
+      "category": "8",
+      "name": "8.6.4.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.6.4.svg.webp"
+    },
+    {
+      "id": "8.6.5.svg.webp",
+      "category": "8",
+      "name": "8.6.5.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.6.5.svg.webp"
+    },
+    {
+      "id": "8.6.6.svg.webp",
+      "category": "8",
+      "name": "8.6.6.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.6.6.svg.webp"
+    },
+    {
+      "id": "8.6.7.svg.webp",
+      "category": "8",
+      "name": "8.6.7.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.6.7.svg.webp"
+    },
+    {
+      "id": "8.6.8.svg.webp",
+      "category": "8",
+      "name": "8.6.8.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.6.8.svg.webp"
+    },
+    {
+      "id": "8.6.9.svg.webp",
+      "category": "8",
+      "name": "8.6.9.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.6.9.svg.webp"
+    },
+    {
+      "id": "8.7.svg.webp",
+      "category": "8",
+      "name": "8.7.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.7.svg.webp"
+    },
+    {
+      "id": "8.8.svg.webp",
+      "category": "8",
+      "name": "8.8.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.8.svg.webp"
+    },
+    {
+      "id": "8.9.1.svg.webp",
+      "category": "8",
+      "name": "8.9.1.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.9.1.svg.webp"
+    },
+    {
+      "id": "8.9.2.svg.webp",
+      "category": "8",
+      "name": "8.9.2.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.9.2.svg.webp"
+    },
+    {
+      "id": "8.9.3.svg.webp",
+      "category": "8",
+      "name": "8.9.3.svg.webp",
+      "image": "images/8.%20Additional/RU_road_sign_8.9.3.svg.webp"
+    }
+  ]
+}
