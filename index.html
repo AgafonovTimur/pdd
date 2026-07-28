@@ -25,21 +25,35 @@
     overflow:hidden;
   }
 
-  /* ===== Панель настроек (выезжает сверху по скроллу) ===== */
-  #settingsPanel{
+  /* ===== Панель настроек (появляется поверх знака по скроллу) ===== */
+  #settingsOverlay{
     position:fixed;
-    top:0; left:0; right:0;
-    background:var(--bg);
-    box-shadow:0 6px 16px var(--shadow-color);
-    transform:translateY(-100%);
-    transition:transform .25s ease;
+    inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     z-index:20;
-    padding:20px;
-    max-height:70vh;
-    overflow-y:auto;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .2s ease;
   }
-  #settingsPanel.open{
-    transform:translateY(0);
+  #settingsOverlay.open{
+    opacity:1;
+    pointer-events:auto;
+  }
+  #settingsPanel{
+    background:var(--bg);
+    border-radius:16px;
+    box-shadow:0 10px 30px var(--shadow-color);
+    padding:24px;
+    width:min(90vw, 460px);
+    max-height:80vh;
+    overflow-y:auto;
+    transform:scale(.96);
+    transition:transform .2s ease;
+  }
+  #settingsOverlay.open #settingsPanel{
+    transform:scale(1);
   }
   #catGrid{
     display:flex;
@@ -60,12 +74,6 @@
   }
   .cat-tile.active{
     color:#fff;
-  }
-  #settingsHandle{
-    position:fixed;
-    top:0; left:0; right:0;
-    height:10px;
-    z-index:19;
   }
 
   /* ===== Экран вопроса ===== */
@@ -154,6 +162,14 @@
     font-size:20px;
     color:#fff;
   }
+  #infoDesc{
+    font-size:14px;
+    line-height:1.4;
+    color:var(--tile-text);
+  }
+  #infoDesc:empty{
+    display:none;
+  }
   #nextBtn{
     background:var(--tile-text);
     color:var(--bg);
@@ -167,9 +183,10 @@
 </head>
 <body>
 
-<div id="settingsHandle"></div>
-<div id="settingsPanel">
-  <div id="catGrid"></div>
+<div id="settingsOverlay">
+  <div id="settingsPanel">
+    <div id="catGrid"></div>
+  </div>
 </div>
 
 <div id="quizScreen">
@@ -181,6 +198,7 @@
   <div id="infoBox">
     <img id="infoImg" src="" alt="">
     <div id="infoName"></div>
+    <div id="infoDesc"></div>
     <button id="nextBtn">Далее</button>
   </div>
 </div>
@@ -194,13 +212,14 @@ let categories = [];
 let selectedCats = new Set();
 let current = null;
 
-const settingsPanel = document.getElementById('settingsPanel');
+const settingsOverlay = document.getElementById('settingsOverlay');
 const catGrid = document.getElementById('catGrid');
 const signImg = document.getElementById('signImg');
 const optionsGrid = document.getElementById('optionsGrid');
 const infoOverlay = document.getElementById('infoOverlay');
 const infoImg = document.getElementById('infoImg');
 const infoName = document.getElementById('infoName');
+const infoDesc = document.getElementById('infoDesc');
 const nextBtn = document.getElementById('nextBtn');
 
 init();
@@ -241,9 +260,9 @@ function renderCategories(){
 function bindScroll(){
   window.addEventListener('wheel', (e) => {
     if(e.deltaY < 0){
-      settingsPanel.classList.add('open');
+      settingsOverlay.classList.add('open');
     }else if(e.deltaY > 0){
-      settingsPanel.classList.remove('open');
+      settingsOverlay.classList.remove('open');
     }
   }, { passive:true });
 }
@@ -292,6 +311,7 @@ function selectAnswer(opt, btnEl){
 
   infoImg.src = current.correctSign.image;
   infoName.textContent = current.correctSign.name;
+  infoDesc.textContent = current.correctSign.description || '';
   infoOverlay.classList.add('show');
 }
 
