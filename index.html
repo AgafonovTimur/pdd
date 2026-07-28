@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Тренажёр дорожных знаков</title>
+<style>
+  :root{
+    --bg: #1a1a1a;
+    --tile: #5a5a5a;
+    --tile-text: #8e8e8e;
+    --shadow-color: #303030;
+    --flash-correct-color: #b3ffb3;
+    --flash-correct-opacity: 50%;
+    --flash-wrong-color: #ffcccc;
+    --flash-wrong-opacity: 50%;
+  }
+  *{box-sizing:border-box;}
+  html,body{
+    margin:0;
+    height:100%;
+    background:var(--bg);
+    color:var(--tile-text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    overflow:hidden;
+  }
+
+  /* ===== Панель настроек (выезжает сверху по скроллу) ===== */
+  #settingsPanel{
+    position:fixed;
+    top:0; left:0; right:0;
+    background:var(--bg);
+    box-shadow:0 6px 16px var(--shadow-color);
+    transform:translateY(-100%);
+    transition:transform .25s ease;
+    z-index:20;
+    padding:20px;
+    max-height:70vh;
+    overflow-y:auto;
+  }
+  #settingsPanel.open{
+    transform:translateY(0);
+  }
+  #catGrid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    justify-content:center;
+  }
+  .cat-tile{
+    background:var(--tile);
+    color:var(--tile-text);
+    border:none;
+    border-radius:10px;
+    padding:12px 18px;
+    font-size:15px;
+    cursor:pointer;
+    box-shadow:0 3px 0 var(--shadow-color);
+    user-select:none;
+  }
+  .cat-tile.active{
+    color:#fff;
+  }
+  #settingsHandle{
+    position:fixed;
+    top:0; left:0; right:0;
+    height:10px;
+    z-index:19;
+  }
+
+  /* ===== Экран вопроса ===== */
+  #quizScreen{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:28px;
+    padding:20px;
+  }
+  #signBox{
+    width:min(60vw, 320px);
+    height:min(60vw, 320px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  #signBox img{
+    max-width:100%;
+    max-height:100%;
+    object-fit:contain;
+  }
+  #optionsGrid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+    width:min(90vw, 420px);
+  }
+  .opt-tile{
+    background:var(--tile);
+    color:var(--tile-text);
+    border:none;
+    border-radius:10px;
+    padding:18px 10px;
+    font-size:16px;
+    cursor:pointer;
+    box-shadow:0 3px 0 var(--shadow-color);
+    text-align:center;
+  }
+  .opt-tile.flash-correct{
+    background-color: color-mix(in srgb, var(--flash-correct-color) var(--flash-correct-opacity), var(--tile));
+    color:#1a1a1a;
+  }
+  .opt-tile.flash-wrong{
+    background-color: color-mix(in srgb, var(--flash-wrong-color) var(--flash-wrong-opacity), var(--tile));
+    color:#1a1a1a;
+  }
+  .opt-tile:disabled{
+    cursor:default;
+  }
+
+  /* ===== Инфо-окно после ответа ===== */
+  #infoOverlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.55);
+    display:none;
+    align-items:center;
+    justify-content:center;
+    z-index:30;
+  }
+  #infoOverlay.show{
+    display:flex;
+  }
+  #infoBox{
+    background:var(--tile);
+    color:var(--tile-text);
+    border-radius:14px;
+    padding:26px;
+    width:min(90vw, 380px);
+    box-shadow:0 6px 16px var(--shadow-color);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:18px;
+    text-align:center;
+  }
+  #infoImg{
+    width:120px;
+    height:120px;
+    object-fit:contain;
+  }
+  #infoName{
+    font-size:20px;
+    color:#fff;
+  }
+  #nextBtn{
+    background:var(--tile-text);
+    color:var(--bg);
+    border:none;
+    border-radius:10px;
+    padding:12px 30px;
+    font-size:15px;
+    cursor:pointer;
+  }
+</style>
+</head>
+<body>
+
+<div id="settingsHandle"></div>
+<div id="settingsPanel">
+  <div id="catGrid"></div>
+</div>
+
+<div id="quizScreen">
+  <div id="signBox"><img id="signImg" src="" alt=""></div>
+  <div id="optionsGrid"></div>
+</div>
+
+<div id="infoOverlay">
+  <div id="infoBox">
+    <img id="infoImg" src="" alt="">
+    <div id="infoName"></div>
+    <button id="nextBtn">Далее</button>
+  </div>
+</div>
+
+<script>
+const DATA_URL = 'data/signs.json';
+const OPTIONS_COUNT = 4;
+
+let allSigns = [];
+let categories = [];
+let selectedCats = new Set();
+let current = null;
+
+const settingsPanel = document.getElementById('settingsPanel');
+const catGrid = document.getElementById('catGrid');
+const signImg = document.getElementById('signImg');
+const optionsGrid = document.getElementById('optionsGrid');
+const infoOverlay = document.getElementById('infoOverlay');
+const infoImg = document.getElementById('infoImg');
+const infoName = document.getElementById('infoName');
+const nextBtn = document.getElementById('nextBtn');
+
+init();
+
+async function init(){
+  const res = await fetch(DATA_URL);
+  const json = await res.json();
+  allSigns = json.signs;
+  categories = json.categories;
+  selectedCats = new Set(categories.map(c => c.id));
+
+  renderCategories();
+  bindScroll();
+  nextQuestion();
+
+  nextBtn.onclick = () => {
+    infoOverlay.classList.remove('show');
+    nextQuestion();
+  };
+}
+
+function renderCategories(){
+  catGrid.innerHTML = '';
+  categories.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'cat-tile' + (selectedCats.has(cat.id) ? ' active' : '');
+    btn.textContent = cat.label;
+    btn.onclick = () => {
+      if(selectedCats.has(cat.id)) selectedCats.delete(cat.id);
+      else selectedCats.add(cat.id);
+      btn.classList.toggle('active');
+      nextQuestion();
+    };
+    catGrid.appendChild(btn);
+  });
+}
+
+function bindScroll(){
+  window.addEventListener('wheel', (e) => {
+    if(e.deltaY < 0){
+      settingsPanel.classList.add('open');
+    }else if(e.deltaY > 0){
+      settingsPanel.classList.remove('open');
+    }
+  }, { passive:true });
+}
+
+function getPool(){
+  return allSigns.filter(s => selectedCats.has(s.category));
+}
+
+function nextQuestion(){
+  const pool = getPool();
+  if(pool.length < OPTIONS_COUNT) return;
+
+  const correctSign = pool[Math.floor(Math.random() * pool.length)];
+  const wrongPool = pool.filter(s => s.id !== correctSign.id);
+  shuffle(wrongPool);
+  const options = shuffle([correctSign, ...wrongPool.slice(0, OPTIONS_COUNT - 1)]);
+
+  current = { correctSign, options };
+  renderQuestion();
+}
+
+function renderQuestion(){
+  signImg.src = current.correctSign.image;
+  optionsGrid.innerHTML = '';
+  current.options.forEach(opt => {
+    const btn = document.createElement('button');
+    btn.className = 'opt-tile';
+    btn.textContent = opt.name;
+    btn.onclick = () => selectAnswer(opt, btn);
+    optionsGrid.appendChild(btn);
+  });
+}
+
+function selectAnswer(opt, btnEl){
+  const buttons = [...optionsGrid.querySelectorAll('.opt-tile')];
+  buttons.forEach(b => b.disabled = true);
+
+  const isCorrect = opt.id === current.correctSign.id;
+  if(isCorrect){
+    btnEl.classList.add('flash-correct');
+  }else{
+    btnEl.classList.add('flash-wrong');
+    const correctBtn = buttons.find(b => b.textContent === current.correctSign.name);
+    if(correctBtn) correctBtn.classList.add('flash-correct');
+  }
+
+  infoImg.src = current.correctSign.image;
+  infoName.textContent = current.correctSign.name;
+  infoOverlay.classList.add('show');
+}
+
+function shuffle(arr){
+  const a = arr.slice();
+  for(let i = a.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+</script>
+
+</body>
+</html>
