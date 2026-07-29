@@ -89,7 +89,7 @@
     height:100%;
     background:var(--bg);
     color:var(--tile-text);
-    font-family:'PT Sans Bold Embedded', Arial, sans-serif;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
     overflow:hidden;
   }
 
@@ -375,7 +375,20 @@ async function init(){
   const json = EMBEDDED_DATA;
   allSigns = json.signs.map(s => ({ ...s, group: groupFor(s) }));
   categories = json.categories;
-  selectedCats = new Set(categories.map(c => c.id));
+
+  let savedCats = null;
+  try{
+    const raw = localStorage.getItem('selectedCats');
+    if(raw) savedCats = JSON.parse(raw);
+  }catch(e){}
+
+  if(Array.isArray(savedCats) && savedCats.length){
+    const validIds = new Set(categories.map(c => c.id));
+    const filtered = savedCats.filter(id => validIds.has(id));
+    selectedCats = new Set(filtered.length ? filtered : categories.map(c => c.id));
+  }else{
+    selectedCats = new Set(categories.map(c => c.id));
+  }
 
   renderCategories();
   bindScroll();
@@ -400,6 +413,9 @@ function renderCategories(){
       if(selectedCats.has(cat.id)) selectedCats.delete(cat.id);
       else selectedCats.add(cat.id);
       btn.classList.toggle('active');
+      try{
+        localStorage.setItem('selectedCats', JSON.stringify([...selectedCats]));
+      }catch(e){}
       nextQuestion();
     };
     catGrid.appendChild(btn);
